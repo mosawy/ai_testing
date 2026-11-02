@@ -1,0 +1,101 @@
+Ask ERP,اسأل النظام
+New Conversation,محادثة جديدة
+Question Log,سجل الأسئلة
+Ask,اسأل
+"Ask about sales, customers, purchases, payments or stock...","اسأل عن المبيعات أو العملاء أو المشتريات أو المدفوعات أو المخزون..."
+Numbers come from your ERP data with your permissions. The AI only reads the question.,الأرقام من بيانات النظام وحسب صلاحياتك. الذكاء الاصطناعي يقرأ السؤال فقط.
+What would you like to know?,عايز تعرف إيه؟
+What can I ask?,أقدر أسأل عن إيه؟
+What I can answer,اللي أقدر أجاوب عليه
+Metric,المقياس
+Example questions,أمثلة أسئلة
+Working on it...,جاري التنفيذ...
+The request failed.,فشل الطلب.
+I cannot answer this one yet.,لسه ما أقدرش أجاوب على السؤال ده.
+Something went wrong.,حصل خطأ.
+Not Set,غير محدد
+Others ({0}),أخرى ({0})
+All dates,كل التواريخ
+{0} by {1},{0} حسب {1}
+Previous period,الفترة السابقة
+Previous,السابق
+Change,التغير
+AI comment,تعليق الذكاء الاصطناعي
+No data for this question.,لا توجد بيانات لهذا السؤال.
+Source,المصدر
+Period,الفترة
+default,افتراضي
+Compared with,مقارنة بـ
+Company,الشركة
+including sub-groups,شامل المجموعات الفرعية
+Compare with previous period,قارن بالفترة السابقة
+Line,خطي
+Bar,أعمدة
+Donut,حلقي
+Pie,دائري
+"This metric has no date, so the period was ignored.","المقياس ده مالوش تاريخ، فالفترة اتجاهلت."
+"A comparison needs a period and no date grouping, so it was skipped.","المقارنة محتاجة فترة ومن غير تجميع بالتاريخ، فاتلغت."
+"There are too many groups; only the first 20,000 were read.","المجموعات كتير جدًا؛ اتقرا أول 20,000 بس."
+Only the latest periods are shown.,معروض آخر الفترات بس.
+"No default company is set for you, so all companies are added together.","مفيش شركة افتراضية ليك، فكل الشركات اتجمعت مع بعض."
+Outstanding amounts are in each party's account currency.,المبالغ المستحقة بعملة حساب كل طرف.
+Net Sales,صافي المبيعات
+Sales Invoices,فواتير المبيعات
+Sales Returns,مرتجعات المبيعات
+Item Sales Amount,مبيعات الأصناف
+Item Quantity Sold,الكمية المباعة
+Receivables,مديونية العملاء
+Overdue Receivables,المديونية المتأخرة
+Sales Orders Booked,أوامر البيع
+Open Sales Orders,أوامر البيع المفتوحة
+Open Sales Orders Value,قيمة أوامر البيع المفتوحة
+New Customers,العملاء الجدد
+Net Purchases,صافي المشتريات
+Payables,مستحقات الموردين
+Purchase Orders Placed,أوامر الشراء
+Payments Received,التحصيلات
+Payments Made,المدفوعات
+Stock Quantity,كمية المخزون
+Stock Value,قيمة المخزون
+Customer,العميل
+Customer Group,مجموعة العملاء
+Territory,المنطقة
+Cost Center,مركز التكلفة
+Project,المشروع
+Sales Partner,شريك المبيعات
+Item,الصنف
+Item Group,مجموعة الأصناف
+Brand,البراند
+Warehouse,المخزن
+Supplier,المورد
+Supplier Group,مجموعة الموردين
+Mode of Payment,طريقة الدفع
+Day,اليوم
+Week,الأسبوع
+Month,الشهر
+Quarter,الربع
+Year,السنة
+Today,النهارده
+Yesterday,امبارح
+This Week,الأسبوع ده
+Last Week,الأسبوع اللي فات
+This Month,الشهر ده
+Last Month,الشهر اللي فات
+This Quarter,الربع ده
+Last Quarter,الربع اللي فات
+This Year,السنة دي
+Last Year,السنة اللي فاتت
+Test Connection,اختبار الاتصال
+Open Assistant,افتح المساعد
+Connection OK,الاتصال سليم
+Connection Failed,فشل الاتصال
+You do not have permission to read {0}.,ليس لديك صلاحية قراءة {0}.
+You do not have permission to see {0}.,ليس لديك صلاحية رؤية {0}.
+"No {0} matches ""{1}"".","مفيش {0} يطابق ""{1}""."
+"Which {0} do you mean by ""{1}""?","تقصد أنهي {0} بـ ""{1}""؟"
+I could not turn this into a query. Try rephrasing it.,ما قدرتش أحول السؤال لاستعلام. جرب تصيغه بشكل تاني.
+Too many questions. Please wait a minute.,أسئلة كتير. استنى دقيقة.
+Please type a question.,اكتب سؤالك.
+You are not allowed to use the assistant.,غير مسموح لك باستخدام المساعد.
+The assistant is disabled in AI Assistant Settings.,المساعد متوقف من إعدادات المساعد.
+"Something went wrong. The error was logged.","حصل خطأ واتسجل."

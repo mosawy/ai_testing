@@ -1,0 +1,177 @@
+.ask-erp {
+	display: flex;
+	flex-direction: column;
+	max-width: 960px;
+	margin: 0 auto;
+	min-height: calc(100vh - 180px);
+}
+
+.ask-erp-messages {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: var(--margin-md, 12px);
+	padding: var(--padding-md, 12px) 0;
+	overflow-y: auto;
+	max-height: calc(100vh - 260px);
+}
+
+.ask-erp-empty {
+	text-align: center;
+	padding: 48px 16px;
+}
+
+.ask-erp-empty-title {
+	font-size: var(--text-xl, 18px);
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+
+.ask-erp-examples,
+.ask-erp-options {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.ask-erp-options {
+	justify-content: flex-start;
+	margin-top: 8px;
+}
+
+.ask-erp-chip {
+	white-space: normal;
+	text-align: start;
+}
+
+.ask-erp-metrics-link {
+	cursor: pointer;
+}
+
+.ask-erp-user {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.ask-erp-bubble {
+	background: var(--primary, #2490ef);
+	color: #fff;
+	border-radius: 12px;
+	padding: 8px 14px;
+	max-width: 75%;
+	white-space: pre-wrap;
+}
+
+.ask-erp-card {
+	background: var(--card-bg, #fff);
+	border: 1px solid var(--border-color, #e2e6e9);
+	border-radius: var(--border-radius-md, 8px);
+	padding: 14px 16px;
+}
+
+.ask-erp-title {
+	font-weight: 600;
+	font-size: var(--text-lg, 16px);
+}
+
+.ask-erp-period {
+	font-size: var(--text-sm, 13px);
+}
+
+.ask-erp-total {
+	font-size: 28px;
+	font-weight: 700;
+	margin: 6px 0 2px;
+}
+
+.ask-erp-previous {
+	font-size: var(--text-sm, 13px);
+	margin-bottom: 4px;
+}
+
+.ask-erp-change {
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.ask-erp-change.up {
+	color: var(--green-600, #2e7d32);
+}
+
+.ask-erp-change.down {
+	color: var(--red-600, #c62828);
+}
+
+.ask-erp-comment {
+	margin: 8px 0;
+	padding: 8px 10px;
+	background: var(--subtle-fg, #f4f5f6);
+	border-radius: 6px;
+}
+
+.ask-erp-comment-tag {
+	font-size: 11px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: var(--text-muted, #6c7680);
+	margin-inline-end: 6px;
+}
+
+.ask-erp-chart {
+	margin-top: 8px;
+}
+
+.ask-erp-results {
+	margin: 8px 0 4px;
+}
+
+.ask-erp-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin: 6px 0;
+}
+
+.ask-erp-basis {
+	border-top: 1px solid var(--border-color, #e2e6e9);
+	margin-top: 8px;
+	padding-top: 8px;
+	font-size: var(--text-sm, 13px);
+}
+
+.ask-erp-definition,
+.ask-erp-note {
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+.ask-erp-note {
+	color: var(--orange-600, #b26a00);
+}
+
+.ask-erp-error {
+	color: var(--red-600, #c62828);
+}
+
+.ask-erp-text {
+	white-space: pre-wrap;
+}
+
+.ask-erp-composer {
+	display: flex;
+	gap: 8px;
+	align-items: flex-end;
+	padding-top: 8px;
+}
+
+.ask-erp-input {
+	flex: 1;
+	resize: vertical;
+}
+
+.ask-erp-hint {
+	font-size: 12px;
+	padding: 4px 2px 12px;
+}

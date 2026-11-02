@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "creation": "2026-11-02 12:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "provider",
+  "base_url",
+  "api_key",
+  "model",
+  "json_mode",
+  "column_break_main",
+  "explain_results",
+  "reference_date",
+  "requests_per_minute",
+  "section_metrics",
+  "disabled_metrics",
+  "metrics_html"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "default": "OpenAI",
+   "fieldname": "provider",
+   "fieldtype": "Select",
+   "label": "Provider",
+   "options": "OpenAI\nGroq\nSovereignEG\nOllama\nOther (OpenAI-compatible)",
+   "reqd": 1
+  },
+  {
+   "default": "https://api.openai.com/v1",
+   "description": "OpenAI-compatible API base URL (the part before /chat/completions).",
+   "fieldname": "base_url",
+   "fieldtype": "Data",
+   "label": "Base URL",
+   "reqd": 1
+  },
+  {
+   "description": "Stored encrypted. Not needed for a local Ollama server.",
+   "fieldname": "api_key",
+   "fieldtype": "Password",
+   "label": "API Key",
+   "length": 255
+  },
+  {
+   "description": "Model id, e.g. gpt-4o-mini, llama-3.3-70b-versatile, qwen2.5:14b.",
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "description": "Ask the model for JSON output (response_format). It is dropped automatically if the model rejects it.",
+   "fieldname": "json_mode",
+   "fieldtype": "Check",
+   "label": "JSON Mode"
+  },
+  {
+   "fieldname": "column_break_main",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "description": "Send the aggregated result (totals and at most 20 groups, no documents) to the model for a one or two sentence comment. Off: only the question and the metric list leave the server.",
+   "fieldname": "explain_results",
+   "fieldtype": "Check",
+   "label": "Comment on Results"
+  },
+  {
+   "description": "Answer as if today were this date, for test sites with old data. Empty: today.",
+   "fieldname": "reference_date",
+   "fieldtype": "Date",
+   "label": "Reference Date"
+  },
+  {
+   "description": "Questions per user per minute. 0: 20.",
+   "fieldname": "requests_per_minute",
+   "fieldtype": "Int",
+   "label": "Requests per Minute",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "section_metrics",
+   "fieldtype": "Section Break",
+   "label": "Metrics"
+  },
+  {
+   "description": "Metric keys to hide from the assistant, one per line.",
+   "fieldname": "disabled_metrics",
+   "fieldtype": "Small Text",
+   "label": "Disabled Metrics"
+  },
+  {
+   "fieldname": "metrics_html",
+   "fieldtype": "HTML",
+   "label": "Available Metrics"
+  }
+ ],
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-11-02 12:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "AI Testing",
+ "name": "AI Assistant Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "System Manager",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
